@@ -10,10 +10,10 @@ Widget createDrawer(BuildContext context) {
     padding: EdgeInsets.zero,
     children: <Widget>[
       Container(
-        color: Theme.of(context).canvasColor,
+        color: COLOR_GREEN,
         child: DrawerHeader(
           child: Text(
-            'Navigation Drawer',
+            'Nav',
             style: TextStyle(
               fontSize: 20,
             ),
